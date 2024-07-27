@@ -1,3 +1,4 @@
+import React from "react"
 import { ChangeEvent } from "react"
 import { PropsInputText } from "../../types_use"
 

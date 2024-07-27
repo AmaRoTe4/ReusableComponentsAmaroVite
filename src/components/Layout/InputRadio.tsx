@@ -1,3 +1,4 @@
+import React from "react"
 import { PropsInputRadio } from "../../types_use"
 
 export const InputRadio = ({ name, key_value, title, onChange, checked }: PropsInputRadio) => {

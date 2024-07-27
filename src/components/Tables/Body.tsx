@@ -1,3 +1,4 @@
+import React from "react"
 export default function Body({ valores }: { valores: { render_valores: { text: string }[], statusOnClick: boolean, onClick: () => void }[] }) {
     return (
         <tbody className="font-normal">

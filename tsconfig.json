@@ -1,11 +1,16 @@
 {
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
-    },
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "lib": ["ES2017", "DOM"],
+    "declaration": true,
+    "outDir": "./dist",             // Salida en la carpeta dist
+    "strict": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],               // Compilar archivos en src
+  "exclude": ["node_modules", "dist", "public"]
 }

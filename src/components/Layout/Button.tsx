@@ -1,3 +1,4 @@
+import React from "react"
 import { ButtonHTMLAttributes, DetailedHTMLProps } from "react"
 
 export const Button = (props: DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>) => {

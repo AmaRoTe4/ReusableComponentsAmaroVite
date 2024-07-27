@@ -1,3 +1,4 @@
+import React from "react"
 export default function Header({ valores }: { valores: { text: string }[] }) {
     return (
         <thead className="text-xs text-black uppercase bg-gray-200">

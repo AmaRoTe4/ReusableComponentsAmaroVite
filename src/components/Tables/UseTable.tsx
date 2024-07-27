@@ -1,3 +1,4 @@
+import React from "react"
 import { TableUseDistribution } from "../../types_use";
 import Table from "./Index";
 

@@ -1,53 +1,24 @@
-import SVGAngleDown from "./SVGAngleDown";
-import SVGAngleUp from "./SVGAngleUp";
-import SVGArrowDown from "./SVGArrowDown";
-import SVGArrowRight from "./SVGArrowRight";
-import SVGArrowUp from "./SVGArrowUp";
-import SVGCopy from "./SVGCopy";
-import SVGEmail from "./SVGEmail";
-import SVGFacebook from "./SVGFacebook";
-import SVGFileDownload from "./SVGFileDownload";
-import SVGInstagram from "./SVGInstagram";
-import SVGMenu from "./SVGMenu";
-import SVGPause from "./SVGPause";
-import SVGPersona from "./SVGPersona";
-import SVGPhone from "./SVGPhone";
-import SVGPlay from "./SVGPlay";
-import SVGPoint from "./SVGPoint";
-import SVGRemove from "./SVGRemove";
-import SVGSearch from "./SVGSearch";
-import SVGShare from "./SVGShare";
-import SVGSmallArrowRight from "./SVGSmallArrowRight";
-import SVGTelefono from "./SVGTelefono";
-import SVGTickTok from "./SVGTickTok";
-import SVGWhatsApp from "./SVGWhatsApp";
-import SVGYoutube from "./SVGYoutube";
-
-const exportacion = {
-  SVGAngleDown,
-  SVGAngleUp,
-  SVGArrowDown,
-  SVGArrowRight,
-  SVGArrowUp,
-  SVGCopy,
-  SVGEmail,
-  SVGFacebook,
-  SVGFileDownload,
-  SVGInstagram,
-  SVGMenu,
-  SVGPause,
-  SVGPersona,
-  SVGPhone,
-  SVGPlay,
-  SVGPoint,
-  SVGRemove,
-  SVGSearch,
-  SVGShare,
-  SVGSmallArrowRight,
-  SVGTelefono,
-  SVGTickTok,
-  SVGWhatsApp,
-  SVGYoutube,
-};
-
-export default exportacion;
+export { default as SVGAngleDown } from "./SVGAngleDown";
+export { default as SVGAngleUp } from "./SVGAngleUp";
+export { default as SVGArrowDown } from "./SVGArrowDown";
+export { default as SVGArrowRight } from "./SVGArrowRight";
+export { default as SVGArrowUp } from "./SVGArrowUp";
+export { default as SVGCopy } from "./SVGCopy";
+export { default as SVGEmail } from "./SVGEmail";
+export { default as SVGFacebook } from "./SVGFacebook";
+export { default as SVGFileDownload } from "./SVGFileDownload";
+export { default as SVGInstagram } from "./SVGInstagram";
+export { default as SVGMenu } from "./SVGMenu";
+export { default as SVGPause } from "./SVGPause";
+export { default as SVGPersona } from "./SVGPersona";
+export { default as SVGPhone } from "./SVGPhone";
+export { default as SVGPlay } from "./SVGPlay";
+export { default as SVGPoint } from "./SVGPoint";
+export { default as SVGRemove } from "./SVGRemove";
+export { default as SVGSearch } from "./SVGSearch";
+export { default as SVGShare } from "./SVGShare";
+export { default as SVGSmallArrowRight } from "./SVGSmallArrowRight";
+export { default as SVGTelefono } from "./SVGTelefono";
+export { default as SVGTickTok } from "./SVGTickTok";
+export { default as SVGWhatsApp } from "./SVGWhatsApp";
+export { default as SVGYoutube } from "./SVGYoutube";

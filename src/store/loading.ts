@@ -5,7 +5,9 @@ interface LoadingState {
   setLoading: (curretPage: boolean) => void;
 }
 
-export const useLoadingStore = create<LoadingState>()((set) => ({
+const useLoadingStore = create<LoadingState>()((set) => ({
   getLoading: false,
   setLoading: (res: boolean) => set(() => ({ getLoading: res })),
 }));
+
+export default useLoadingStore;

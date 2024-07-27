@@ -1,4 +1,4 @@
-import { useLoadingStore } from "../store/loading"
+import useLoadingStore from "../store/loading"
 
 export default function useLoading() {
     const { getLoading, setLoading } = useLoadingStore()

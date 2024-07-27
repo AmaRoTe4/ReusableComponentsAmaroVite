@@ -1,3 +1,4 @@
+import React from "react"
 import useSearchDebounce from "../../hooks/useSearchDebounce"
 
 export default function SearchDebounce() {

@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import { NormalModal } from "../components/Layout/NormalModal"
 
 export default function useModal() {

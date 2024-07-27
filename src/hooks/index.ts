@@ -1,17 +1,6 @@
-import useFocus from "./useFocus";
-import useForm from "./useForm";
-import useHover from "./useHover";
-import useLoading from "./useLoading";
-import useModal from "./useModal";
-import useSearchDebounce from "./useSearchDebounce";
-
-const exportaciones = {
-  useFocus,
-  useForm,
-  useHover,
-  useLoading,
-  useModal,
-  useSearchDebounce,
-};
-
-export default exportaciones;
+export { default as useFocus } from "./useFocus";
+export { default as useForm } from "./useForm";
+export { default as useHover } from "./useHover";
+export { default as useLoading } from "./useLoading";
+export { default as useModal } from "./useModal";
+export { default as useSearchDebounce } from "./useSearchDebounce";

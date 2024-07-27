@@ -1,41 +1,16 @@
-import {
+export {
   cartelError,
   cartelInfo,
   cartelSuccess,
   cartelWait,
 } from "./Carteles/index";
-import TableBody from "./Tables/Body";
-import TableHeader from "./Tables/Header";
-import TableIndex from "./Tables/Index";
-import UseTable from "./Tables/UseTable";
-import BasicCuerpo from "./Layout/BasicCuerpo";
-import { Button } from "./Layout/Button";
-import { InputRadio } from "./Layout/InputRadio";
-import { InputText } from "./Layout/InputText";
-import LoadingScreen from "./Layout/LoadingScreen";
-import { NormalModal } from "./Layout/NormalModal";
-
-const exportacion = {
-  carteles: {
-    cartelError,
-    cartelInfo,
-    cartelSuccess,
-    cartelWait,
-  },
-  tables: {
-    TableBody,
-    TableHeader,
-    TableIndex,
-    UseTable,
-  },
-  layout: {
-    BasicCuerpo,
-    Button,
-    InputRadio,
-    InputText,
-    LoadingScreen,
-    NormalModal,
-  },
-};
-
-export default exportacion;
+export { default as TableBody } from "./Tables/Body";
+export { default as TableHeader } from "./Tables/Header";
+export { default as TableIndex } from "./Tables/Index";
+export { default as UseTable } from "./Tables/UseTable";
+export { default as BasicCuerpo } from "./Layout/BasicCuerpo";
+export { default as LoadingScreen } from "./Layout/LoadingScreen";
+export { Button } from "./Layout/Button";
+export { InputRadio } from "./Layout/InputRadio";
+export { InputText } from "./Layout/InputText";
+export { NormalModal } from "./Layout/NormalModal";

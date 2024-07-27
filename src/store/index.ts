@@ -1,3 +1,1 @@
-const exportaciones = {};
-
-export default exportaciones;
+export { default as useLoadingStore } from "./loading";

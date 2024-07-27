@@ -1,3 +1,4 @@
+import React from "react"
 export default function SVGWhatsApp({ className = "fill-white w-6" }: { className?: string }) {
     return (
 

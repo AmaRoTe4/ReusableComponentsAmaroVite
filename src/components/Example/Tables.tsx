@@ -1,3 +1,4 @@
+import React from "react"
 import TableUse from "../Tables/UseTable"
 
 export default function Table() {

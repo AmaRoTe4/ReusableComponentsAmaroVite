@@ -1,3 +1,4 @@
+import React from "react"
 import SVGRemove from "../../svgs/SVGRemove";
 
 interface props {
