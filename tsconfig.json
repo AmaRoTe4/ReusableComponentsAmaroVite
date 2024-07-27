@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "ES6",
+    "target": "ES5",                       // Puedes cambiar a ES6 o superior si lo prefieres
+    "module": "ES6",                       // Usa el módulo adecuado para tu configuración
     "moduleResolution": "node",
-    "lib": ["ES2017", "DOM"],
-    "declaration": true,
-    "outDir": "./dist",             // Salida en la carpeta dist
+    "lib": ["ES2017", "DOM"],              // Incluye las bibliotecas que necesites
+    "declaration": true,                   // Genera archivos .d.ts
+    "declarationMap": true,                // Opcional: Genera mapas de declaración para depuración
+    "outDir": "./dist",                    // Directorio de salida
     "strict": true,
     "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src"],               // Compilar archivos en src
-  "exclude": ["node_modules", "dist", "public"]
+  "include": ["src/**/*"],                 // Incluye todos los archivos en src
+  "exclude": ["node_modules", "dist"]      // Excluye node_modules y dist
 }

@@ -1,12 +1,12 @@
 {
   "name": "reusable-components-amaro-vite",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "Los componentes que usa Amaro Cattarozzi para sus apps.",
-  "main": "dist/my-library.umd.js",
-  "module": "dist/my-library.es.js",
-  "types": "dist/my-library.d.ts",
+  "main": "./index.ts",
+  "types": "./src/types_use.d.ts",
+  "type": "module",
   "files": [
-    "dist/**/*"
+    "src/**/*"
   ],
   "author": "AmaRoTe4",
   "license": "MIT",
@@ -19,7 +19,6 @@
     "type": "git",
     "url": "git+https://github.com/AmaRoTe4/ReusableComponents.git"
   },
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -27,6 +26,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "fuse.js": "^7.0.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "sweetalert2": "11.12.3",
